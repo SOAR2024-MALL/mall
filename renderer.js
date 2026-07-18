@@ -41,7 +41,7 @@ const Renderer = {
         try {
 
             const response = await fetch(
-                "https://soar2024-mall.github.io/firebase/_data/MALL/renderer.json"
+                "https://soar2024-mall.github.io/firebase/renderer.json"
             );
 
             this.config = await response.json();
